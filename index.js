@@ -88,28 +88,32 @@ const promptUser = () => {
                 ]
         },
         {
-            type: 'confirm', 
-            name: 'confirmContributing',
-            message: 'Would you like to add a contributing section?',
-            default: true
-        },
-        {
             type: 'input',
             name: 'contributing',
             message: 'Provide instructions on how to contribute.',
-            when: ({ confirmContributing }) => confirmContributing
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter how to contribute!')
+                    return false;
+                }
+            }
         },
-        {
-            type: 'confirm', 
-            name: 'confirmTests',
-            message: 'Would you like to add a tests section?',
-            default: true
         },
         {
             type: 'input',
             name: 'tests',
             message: 'Provide your tests.',
-            when: ({ confirmTests }) => confirmTests
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter available tests!')
+                    return false;
+                }
+            }
+        },
         },
         {
             type: 'input',

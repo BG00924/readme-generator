@@ -1,26 +1,4 @@
 
-
-const generateContributing = function (contributingText) {
-    
-    
-    if(!contributingText) {
-        return ''
-    }
-
-    return `
-* ${data.contributing}
-    `
-}
-
-const generateTests = function (testsText) {
-    if(!testsText) {
-        return ''
-    }
-    return `
-${data.tests}
-`
-}
-
 module.exports = data => {
     return `
 # ${data.projectTitle}
@@ -61,11 +39,11 @@ To get more information about the licenses, see below.
 
 ## Contributing:
   
-* ${generateContributing(data.contributingText)}
+* ${data.contributing}
   
 ## Tests:
 
-* ${generateTests(data.testsText)}
+* ${data.tests}
 
 ## Questions:
   

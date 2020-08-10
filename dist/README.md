@@ -1,5 +1,5 @@
 
-# a
+# README Generator
   
 ## Table of Contents:
 
@@ -13,21 +13,21 @@
 * [Questions](#questions)
 
 ## Description:
-![License](https://img.shields.io/badge/License-Apache,BSD,GPL,LGPL,MIT,MPL,CDDL,EPL-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-* a
+* This project allows users to quickly and efficiently generate quality READMEs.
   
 ## Installation:
   
-* a
+* Users only need to clone the repository to their local machine and ensure inquirer is installed in the app main directory.
   
 ## Usage:
   
-* a
+* The primary use for this project is to generate READMEs and the user simply needs to initialize the app from the command line and answer questions to generate the README.
   
 ## Credits:
   
-* a
+* I completed this project individually with the use of node.js and inquirer.
   
 ## License:
   
@@ -37,17 +37,17 @@ To get more information about the licenses, see below.
 
 ## Contributing:
   
-* 
+* None.
   
 ## Tests:
 
-* 
+* None.
 
 ## Questions:
   
 For additional information visit my GitHub page:
-* [GitHub Profile](https://github.com/a)
+* [GitHub Profile](https://github.com/bg00924)
 
 For questions please send me an email at:
-* a
+* bg00924@gmail.com
   
