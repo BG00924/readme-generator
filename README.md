@@ -15,19 +15,19 @@
 ## Description:
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-* This project generates quality READMEs
+* This project allows users to quickly and efficiently generate quality READMEs.
   
 ## Installation:
   
-* Clone repository and install inquirer to the main directory
+* Users only need to clone the repository to their local machine and ensure inquirer is installed in the app main directory.
   
 ## Usage:
   
-* Main use is to generate README and is as simple as initializing the app from the command line and answering questions.
+* The primary use for this project is to generate READMEs and the user simply needs to initialize the app from the command line and answer questions to generate the README.
   
 ## Credits:
   
-* Myself and I utilized node.js and inquirer
+* I completed this project individually with the use of node.js and inquirer.
   
 ## License:
   
