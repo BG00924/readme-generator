@@ -100,7 +100,6 @@ const promptUser = () => {
                 }
             }
         },
-        },
         {
             type: 'input',
             name: 'tests',
@@ -113,7 +112,6 @@ const promptUser = () => {
                     return false;
                 }
             }
-        },
         },
         {
             type: 'input',
